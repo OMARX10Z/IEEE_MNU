@@ -1,4 +1,4 @@
-import{r as o,j as X}from"./index-BhktwVDl.js";import{g as m}from"./ScrollTrigger-B2uKOqL4.js";const N=12,S=300,k="0, 102, 161",O=768,j=(t,l,r=k)=>{const i=document.createElement("div");return i.className="particle",i.style.cssText=`
+import{r as o,j as X}from"./index-B-9K1Eol.js";import{g as m}from"./ScrollTrigger-B2uKOqL4.js";const N=12,S=300,k="0, 102, 161",O=768,j=(t,l,r=k)=>{const i=document.createElement("div");return i.className="particle",i.style.cssText=`
     position: absolute;
     width: 4px;
     height: 4px;
