@@ -11,6 +11,17 @@
     
     <!-- Preconnect to critical origins -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Single Page Apps for GitHub Pages -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.getItem('redirect');
+        if (redirect) {
+          sessionStorage.removeItem('redirect');
+          history.replaceState(null, null, redirect.split(location.origin)[1]);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
